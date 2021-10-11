@@ -14,7 +14,7 @@ import (
 func Index(_ http.ResponseWriter, _ *http.Request, params httprouter.Params) {
 	// NewProduction builds a sensible production Logger that writes InfoLevel and above logs to standard error as JSON
 	logger, _ := zap.NewProduction() // Create a production HTTP logger listener using Zap
-	logger.Info("Successfully performed http request")
+	logger.Info("Successfully performed http request byakugan")
 	logger.Info(quote.Hello())
 	logger.Info(quoteV3.HelloV3())
 }
@@ -31,7 +31,7 @@ func HealthCheck(res http.ResponseWriter, req *http.Request, params httprouter.P
 }
 
 func main() {
-	CyanPrintCLI("Initializing HTTP server at port 8080... ⏳")
+	cyanPrintCLI("Initializing HTTP server at port 8080... ⏳")
 	router := httprouter.New()
 	router.GET("/", Index)
 	router.GET("/health-check", HealthCheck)

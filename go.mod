@@ -1,16 +1,13 @@
-module github.com/bietdoikiem/go-module-sample
+module github.com/bietdoikiem/go-playground
 
 go 1.17
-
-require rsc.io/quote/v3 v3.1.0
 
 require (
 	github.com/fatih/color v1.13.0
 	github.com/julienschmidt/httprouter v1.3.0
 	go.uber.org/zap v1.19.1
-	golang.org/x/text v0.3.3 // indirect
 	rsc.io/quote v1.5.2
-	rsc.io/sampler v1.3.0 // indirect
+	rsc.io/quote/v3 v3.1.0
 )
 
 require (
@@ -19,4 +16,6 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/text v0.3.3 // indirect
+	rsc.io/sampler v1.3.0 // indirect
 )

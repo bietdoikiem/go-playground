@@ -4,6 +4,6 @@ import (
 	colorCLI "github.com/fatih/color"
 )
 
-func CyanPrintCLI(content string) {
+func cyanPrintCLI(content string) {
 	colorCLI.Cyan(content)
 }
