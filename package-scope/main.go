@@ -5,7 +5,7 @@ import "fmt"
 var score float64 = 99.5
 
 func main() {
-	sayHello("Mario")
+	sayHello("Package Scope!")
 
 	showScore()
 
