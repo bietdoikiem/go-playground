@@ -1,0 +1,5 @@
+Bill breakdown: 
+cookie:                   ... $2.99 
+tea:                      ... $4.99 
+tip:                      ... $1.99 
+total:                    ... $9.97
